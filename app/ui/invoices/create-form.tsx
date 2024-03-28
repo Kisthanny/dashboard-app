@@ -106,11 +106,7 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
         >
           Cancel
         </Link>
-        <Button
-          type="submit"
-        >
-          Create Invoice
-        </Button>
+        <Button type="submit">Create Invoice</Button>
       </div>
     </form>
   );
